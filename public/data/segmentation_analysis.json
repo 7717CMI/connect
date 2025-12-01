@@ -1,0 +1,87 @@
+{
+  "Global": {
+    "BY END USER": {},
+    "BY END USER - Residential": {
+      "Security & Surveillance": {
+        "Indoor Cameras": {},
+        "Outdoor Cameras": {}
+      },
+      "Access & Door Control": {
+        "Video Doorbells": {},
+        "Smart Door Locks": {}
+      },
+      "Home Automation": {
+        "Smart Lighting (Bulbs & Light Strips)": {},
+        "Smart Light Switches & Plugs": {},
+        "Smart Buttons (Scene Control / Panic Actions)": {},
+        "Smart Hub (RF/Sub-G Bridge + Alarm Siren)": {}
+      },
+      "Home Automation - Smart Sensors": {
+        "Motion Sensors": {},
+        "Contact/Door/Window Sensors": {},
+        "Water Leak Sensors": {},
+        "Temperature/Humidity Sensors": {}
+      },
+      "Cleaning & Maintenance": {
+        "Robot Vacuum & Mop Systems": {},
+        "Robot Docking Stations": {}
+      },
+      "Other Accessories": {
+        "Mounting Accessories": {},
+        "Storage Cards": {},
+        "Wiring Kits": {}
+      }
+    },
+    "BY END USER - Commercial": {
+      "Surveillance & Compliance": {
+        "Indoor Cameras": {},
+        "Outdoor Cameras": {}
+      },
+      "Access & Visitor Control": {
+        "Video Doorbells (Reception / Entry Points)": {},
+        "Smart Door Locks (Restricted Areas / Front Offices)": {}
+      },
+      "Facility Automation": {
+        "Smart Lighting (Automated Office/Storefront Lighting)": {},
+        "Smart Light Switches & Plugs": {},
+        "Smart Hub (Automation & Central Alerting)": {}
+      },
+      "Facility Automation - Smart Sensors": {
+        "Motion / Door Sensors": {},
+        "Water Leak Sensors": {},
+        "Environmental Sensors": {}
+      },
+      "Cleaning & Facility Maintenance": {
+        "Robot Vacuum & Mop Systems": {},
+        "Consumables and Docking Solutions": {}
+      },
+      "Custom / Scenario Controls": {
+        "Smart Buttons (Store Open/Close & Emergency Alert)": {},
+        "App-controlled Scenes (Energy Scheduling & Remote Shutdown)": {},
+        "Hub-Triggered Alerts and Facility Automation Rules": {}
+      }
+    },
+    "BY CONNECTIVITY": {},
+    "BY CONNECTIVITY - Non-Cellular": {
+      "Wireless": {
+        "Wi-Fi": {},
+        "Bluetooth (Provisioning)": {},
+        "Sub-G RF (Hub-Based)": {}
+      },
+      "Wired": {
+        "Ethernet / PoE": {}
+      }
+    },
+    "BY APPLICATION": {},
+    "BY APPLICATION - Commercial": {
+      "Healthcare (Clinics / Small Hospitals / Diagnostic Centres)": {
+        "Healthcare": {}
+      },
+      "Other (Education & Childcare / Warehousing & Logistics)": {
+        "Other Commercial": {}
+      }
+    },
+    "BY GEOGRAPHY": {},
+    "BY COMPANY": {}
+  }
+}
