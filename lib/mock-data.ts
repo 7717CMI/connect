@@ -29,10 +29,10 @@ export function createMockData(): ComparisonData {
     },
     dimensions: {
       geographies: {
-        global: ['Global'],
+        global: ['India'],
         regions: [],
         countries: {},
-        all_geographies: ['Global']
+        all_geographies: ['India']
       },
       segments: {
         'By End-Use*Product Type': {
