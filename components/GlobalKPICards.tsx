@@ -122,7 +122,7 @@ export function GlobalKPICards() {
       : 0
 
     // Get currency preference
-    const selectedCurrency = currency || data.metadata.currency || 'USD'
+    const selectedCurrency = currency || data.metadata.currency || 'INR'
     const isINR = selectedCurrency === 'INR'
     
     // Values in time_series are already in the unit specified by value_unit/volume_unit

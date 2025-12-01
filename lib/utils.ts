@@ -9,7 +9,7 @@ export function formatNumber(value: number, decimals: number = 2): string {
   return value.toFixed(decimals)
 }
 
-export function formatCurrency(value: number, currency: string = 'USD', unit: string = 'Mn'): string {
+export function formatCurrency(value: number, currency: string = 'INR', unit: string = 'Mn'): string {
   return `${currency} ${value.toFixed(2)} ${unit}`
 }
 

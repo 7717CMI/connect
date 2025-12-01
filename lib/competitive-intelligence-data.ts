@@ -148,7 +148,7 @@ export async function loadCompetitiveIntelligenceData(): Promise<CompetitiveInte
           metadata: {
             market: 'Competitive Intelligence Market',
             year: 2024,
-            currency: 'USD',
+            currency: 'INR',
             revenue_unit: 'Mn',
             total_companies: companies.length
           },
@@ -576,12 +576,12 @@ export async function getCompanyComparison(): Promise<{
       section: "MARKET PRESENCE"
     },
     {
-      label: "Overall Revenue (USD Mn)",
+      label: "Overall Revenue (INR Mn)",
       values: companies.map(c => c.overallRevenue.toLocaleString()),
       section: "FINANCIAL METRICS"
     },
     {
-      label: "Segmental Revenue (USD Mn), 2024",
+      label: "Segmental Revenue (INR Mn), 2024",
       values: companies.map(c => c.segmentalRevenue.toLocaleString()),
       section: "FINANCIAL METRICS"
     },

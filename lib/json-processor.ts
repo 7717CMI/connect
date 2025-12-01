@@ -1189,7 +1189,7 @@ export async function processJsonDataAsync(
       forecast_year: forecastYear,
       historical_years: allYears.filter(y => y <= baseYear),
       forecast_years: allYears.filter(y => y > baseYear),
-      currency: 'USD',
+      currency: 'INR',
       value_unit: 'Million',
       volume_unit: 'Million Units',
       has_value: valueRecords.length > 0,

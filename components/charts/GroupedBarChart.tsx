@@ -273,7 +273,7 @@ export function GroupedBarChart({ title, height = 400 }: GroupedBarChartProps) {
     )
   }
 
-  const selectedCurrency = currency || data.metadata.currency || 'USD'
+  const selectedCurrency = currency || data.metadata.currency || 'INR'
   const isINR = selectedCurrency === 'INR'
   const currencySymbol = isINR ? '₹' : '$'
   const unitLabel = isINR ? '' : (data.metadata.value_unit || 'Million')
@@ -306,7 +306,7 @@ export function GroupedBarChart({ title, height = 400 }: GroupedBarChartProps) {
     if (!active || !payload || !payload.length) return null
 
     const year = label
-    const selectedCurrency = currency || data.metadata.currency || 'USD'
+    const selectedCurrency = currency || data.metadata.currency || 'INR'
     const isINR = selectedCurrency === 'INR'
     const currencySymbol = isINR ? '₹' : '$'
     const unitText = isINR ? '' : (data.metadata.value_unit || 'Million')

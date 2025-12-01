@@ -119,7 +119,7 @@ export function MultiLineChart({ title, height = 400 }: MultiLineChartProps) {
     )
   }
 
-  const selectedCurrency = currency || data.metadata.currency || 'USD'
+  const selectedCurrency = currency || data.metadata.currency || 'INR'
   const isINR = selectedCurrency === 'INR'
   const currencySymbol = isINR ? '₹' : '$'
   const unitLabel = isINR ? '' : (data.metadata.value_unit || 'Million')
@@ -169,7 +169,7 @@ export function MultiLineChart({ title, height = 400 }: MultiLineChartProps) {
             content={({ active, payload, label }) => {
               if (active && payload && payload.length) {
                 const year = label
-                const selectedCurrency = currency || data.metadata.currency || 'USD'
+                const selectedCurrency = currency || data.metadata.currency || 'INR'
                 const isINR = selectedCurrency === 'INR'
                 const currencySymbol = isINR ? '₹' : '$'
                 const unitText = isINR ? '' : (data.metadata.value_unit || 'Million')
